@@ -7,6 +7,8 @@ import reactLogo from "/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.scss";
 
+import Header from "./Header";
+
 import { Button } from "primereact/button";
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
 
 	return (
 		<>
+		<Header />
 			<div>
 				<a href='https://vitejs.dev' target='_blank'>
 					<img src={viteLogo} className='logo' alt='Vite logo' />
